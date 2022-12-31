@@ -47,7 +47,7 @@ def interface() -> None:
                         with gr.Column():
                             with gr.Row():
                                 image_in = gr.Image(
-                                    label="Image input", interative=True)
+                                    label="Image input", interactive=True)
                             with gr.Row():
                                 paths = [["examples/" + example]
                                          for example in os.listdir("examples")]
