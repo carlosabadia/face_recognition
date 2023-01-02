@@ -49,13 +49,13 @@ def interface() -> None:
                                 image_in = gr.Image(
                                     label="Image input", interactive=True)
                             with gr.Row():
+                                detect_image_button = gr.Button(
+                                    value="Detect face 👤")
+                            with gr.Row():
                                 paths = [["examples/" + example]
                                          for example in os.listdir("examples")]
                                 example_images = gr.Dataset(components=([image_in]), label="Example images", samples=[[path]
                                                                                                                       for path in paths])
-                            with gr.Row():
-                                detect_image_button = gr.Button(
-                                    value="Detect face 👤")
                         with gr.Column():
                             with gr.Row():
                                 face_detected_image_out = gr.Image(
@@ -73,11 +73,11 @@ def interface() -> None:
                                 webcam_image_in = gr.Webcam(
                                     label="Webcam input")
                             with gr.Row():
-                                gr.Text(
-                                    label="⚠️ Reminder ", value="Do not forget to click the camera button to freeze and get the webcam image 📷!", interactive=False)
-                            with gr.Row():
                                 detect_button = gr.Button(
                                     value="Detect face 👤")
+                            with gr.Row():
+                                gr.Text(
+                                    label="⚠️ Reminder ", value="Do not forget to click the camera button to freeze and get the webcam image 📷!", interactive=False)
                         with gr.Column():
                             with gr.Row():
                                 face_detected_webcam_out = gr.Image(
