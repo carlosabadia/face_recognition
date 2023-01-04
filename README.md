@@ -3,7 +3,7 @@
 This is a demo for a facial recognition system in Python using the MediaPipe face detector and FaceNet face feature extractor. Implemented in the TurtleBot person follower project.
 
 ## Hugging Face demo:
-* Demo avaible at Hugging Face [![Generic badge](https://img.shields.io/badge/🤗-Open%20in%20Spaces-blue.svg)](https://huggingface.co/spaces/carlosabadia/face_detection)
+* Demo available at Hugging Face [![Generic badge](https://img.shields.io/badge/🤗-Open%20in%20Spaces-blue.svg)](https://huggingface.co/spaces/carlosabadia/face_detection)
 
 
 ## TurtleBot person follower project:
