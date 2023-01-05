@@ -7,4 +7,4 @@ This is a demo for a facial recognition system in Python using the MediaPipe fac
 
 
 ## TurtleBot person follower project:
-* TurtleBot person follower project (WIP) [![GitHub](https://badgen.net/badge/icon/github?icon=github&label)](https://github.com/carlosabadia/)
+* TurtleBot person follower project [![GitHub](https://badgen.net/badge/icon/github?icon=github&label)](https://github.com/carlosabadia/turtlebot_person_follower)
